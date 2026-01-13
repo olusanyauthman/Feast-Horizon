@@ -99,7 +99,7 @@ nav{
 .slogan-par{
   font-size: 25px;
   margin-top: 20px;
-  color: hsl(0, 0%, 12%);
+  color: #dfd4d4;
 }
 
 .btn-container{
@@ -887,4 +887,5 @@ input::placeholder{
   background-color: #d4af37;
   color: #0b0b0b;
   border: 1px solid rgb(36, 36, 36);
+
 }
