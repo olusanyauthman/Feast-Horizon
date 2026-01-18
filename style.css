@@ -250,7 +250,7 @@ nav svg{
   }
 
   .slogan{
-    font-size: 2.5em;
+    font-size: 2.4em;
     
   }
 
@@ -951,4 +951,5 @@ input::placeholder{
   background-color: #d4af37;
   color: #0b0b0b;
   border: 1px solid rgb(36, 36, 36);
+
 }
