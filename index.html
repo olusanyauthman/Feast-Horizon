@@ -12,29 +12,36 @@
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <nav>
-    <div class="logo">
-     <pre>
+  <nav>
+      <pre class="logo">
  <i class="fa-solid fa-utensils "></i> Feast Horizon
   </pre>
-    </div>
-      <ul class="list">
-        <li><a class="a" href="#hero">Home</a></li>
-        <li><a class="a" href="#about">About</a></li>
-        <li><a class="a" href="#services">Services</a></li>
-        <li><a class="a" href="#testimonial">Testimonials</a></li>
-        <li><a class="a" href="#menu">Menu</a></li>
-        <li><a class="a" href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+      <input type="checkbox" id="sidebar-active">
+      <label for="sidebar-active" class="open-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+      </label>
+
+       <label for="sidebar-active" id="overlay"></label>
+      <div class="links-container">
+        <label for="sidebar-active" class="close-sidebar-button">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </label>
+
+       
+        <a class="home-link" href="#hero">Home</a>
+        <a  href="#about">About</a>
+        <a  href="#services">Services</a>
+        <a  href="#testimonial">Testimonials</a>
+        <a  href="#menu">Menu</a>
+        <a class="contact-link"  href="#contact">Contact</a>
+      </div>
+     </nav>
   <section class="hero" id="hero">
      <div class="hero-container">
       <h1 class="slogan">Planning Moments</h1>
       <h1 class="slogan">Serving Memories</h1>
       <p class="slogan-par">Feast horizon exquiste catering and seamless
-         event planning for yout perfect celebrations.</p>
+         event planning for your perfect celebrations.</p>
 
       <div class="btn-container">
       <a href="#" class="explore-btn">Explore Menu</a>
@@ -69,7 +76,7 @@
   <section class="services" id="services">
     <div class="services-container">
       <h2>OUR SERVICES</h2>
-      <p>What We Offer At Feast Horrizon</p>
+      <p>What We Offer At Feast Horizon</p>
       
       <div class="services-cards">
        <div class="service-card">
